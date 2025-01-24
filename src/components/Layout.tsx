@@ -14,7 +14,8 @@ const Layout: FC<LayoutRouteProps> = (props) => {
   return (
     <>
       <nav>
-        <button onClick={() => navigate('/')}>home</button>
+        <button onClick={() => navigate('/')}>main</button>
+        <button onClick={() => navigate('/home')}>home</button>
         <button onClick={() => navigate('/profile')}>profile</button>
       </nav>
       {children}
