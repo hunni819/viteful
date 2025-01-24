@@ -31,13 +31,13 @@ cd viteful
 ### 2. 의존성 설치
 
 ```bash
-pnpm install
+npm install
 ```
 
 ### 3. 개발 모드 실행
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 ### 4. 빌드 및 실행
@@ -45,25 +45,25 @@ pnpm run dev
 #### 클라이인트 & 서버 빌드
 
 ```bash
-pnpm run build
+npm run build
 ```
 
 #### 클라이언트 빌드
 
 ```bash
-pnpm run build:client
+npm run build:client
 ```
 
 #### 서버 빌드
 
 ```bash
-pnpm run build:server
+npm run build:server
 ```
 
 #### 프로덕션 모드 실행
 
 ```bash
-pnpm run preview
+npm run preview
 ```
 
 ---
